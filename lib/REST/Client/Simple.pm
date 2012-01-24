@@ -1,6 +1,6 @@
 package REST::Client::Simple;
 
-use feature 'switch';
+use 5.010;
 use Any::Moose 'Role';
 use REST::Client;
 use Data::Dumper;
@@ -18,11 +18,11 @@ REST::Client::Simple - A Simple base module to implement almost every RESTful AP
 
 =head1 VERSION
 
-Version 0.1
+Version 0.2
 
 =cut
 
-our $VERSION = "0.1";
+our $VERSION = "0.2";
 
 =head1 SYNOPSIS
 
